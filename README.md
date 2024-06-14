@@ -2,9 +2,20 @@
 
 ## For PS4 OFW 11.00 ONLY
 
-## For Linux Machine ONLY - Will Never Work On Windows - Don't Waste Time With Windows
+- For Linux Machine ONLY - Will Never Work On Windows - Don't Waste Time With Windows
 
-## Everything PreCompiled - No Work To Be Done - No Stupid Bullshit Directions
+- Everything PreCompiled - No Work To Be Done - No Stupid Bullshit Directions
+
+## PreCompiled Live Debian with PPPwn from this git
+
+Join Files:
+
+```sh
+cd pppwn-iso
+cat x* > ./pppwn_amd64_2024-05-27_1958.iso
+```
+
+- Jailbreak from Live Debian System - no install required
 
 
 ### How To Jailbreak
@@ -12,10 +23,6 @@
 
 #### Step 1 - in Linux:
 
-- install scapy
-```sh
-sudo apt install scapy
-```
 - determine your ethernet device id - enp1s0 is mine and the default
 ```sh
 sudo ifconfig
