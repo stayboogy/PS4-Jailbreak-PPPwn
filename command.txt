@@ -1,2 +1,12 @@
 sudo python3 pppwn.py --interface=enp0s3 --fw=1100
 
+sudo python3 pppwn.py --interface=enp1s0 --fw=1100
+
+
+# split iso
+
+split -b 2M ./pppwn_amd64_2024-05-27_1958.iso
+
+# join iso
+
+cat x* > ./pppwn_amd64_2024-05-27_1958.iso
